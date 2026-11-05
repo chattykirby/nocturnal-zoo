@@ -119,6 +119,14 @@ a {
 
 /* ===== Dark mode (Role C) ===== */
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1b1b2f;
+        --fg: #e8e8f0;
+        --accent: #f5c542;
+    }
+}
+
 
 
 /* ===== Animal cards (Role D, teams of four) ===== */
